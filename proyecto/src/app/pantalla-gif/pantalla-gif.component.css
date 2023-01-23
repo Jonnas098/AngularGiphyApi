@@ -1,0 +1,25 @@
+.cuerpo {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.gifs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: auto;
+    width: 75%;
+}
+
+.gif {
+    border: #fff 1px solid;
+    box-shadow: 10px 10px rgb(172, 0, 157);
+    margin: 2rem 2rem
+}
+
+img {
+    width: 20rem;
+    height: 20rem;
+}

@@ -1,0 +1,36 @@
+*{
+    color: white;
+}
+
+img{
+    margin-left: 1rem;
+    width: 200px;
+    height: 200px;
+}
+
+.tarjeta{
+    
+    display: flex;
+    flex-direction: row;
+    border: #fff 1px solid;
+    box-shadow: 10px 10px rgb(168, 63, 15);
+    height: 16rem;
+    margin-top: 1rem;
+}
+
+.contenido-tarjeta{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+h1{
+    margin: 0rem 5rem;
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+a{
+    text-decoration: none;
+}

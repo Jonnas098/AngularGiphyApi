@@ -1,0 +1,25 @@
+.cuerpo {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.stickers {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: auto;
+    width: 75%;
+}
+
+.sticker {
+    border: #fff 1px solid;
+    box-shadow: 10px 10px rgb(255, 0, 140);
+    margin: 2rem 2rem
+}
+
+img {
+    width: 13rem;
+    height: 13rem;
+}
